@@ -1,0 +1,12 @@
+<!-- BEGIN LAPTOP -->
+<section id="laptop" class="container-fluid pt-5 pb-5 bg-light text-dark">
+  <h1 class="text-center">BEST LAPTOP</h1>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-lg-3" *ngFor = 'let item of Laptop'>
+      <!-- Code item in here -->
+      <app-item [item] ='item'></app-item>
+      <!-- End item -->
+    </div>
+  </div>
+</section>
+<!-- END LAPTOP -->
